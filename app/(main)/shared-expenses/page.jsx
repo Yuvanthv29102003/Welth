@@ -19,13 +19,13 @@ export default function SharedExpensesPage() {
           <div className="text-center space-y-4">
             <h3 className="text-xl font-semibold">Split Expenses with Ease</h3>
             <p className="text-muted-foreground">
-              We're working on bringing you a powerful expense sharing feature that will make splitting bills and tracking shared expenses effortless.
+              We&apos;re working on bringing you a powerful expense sharing feature that will make splitting bills and tracking shared expenses effortless.
             </p>
           </div>
           
           <div className="grid gap-4 md:grid-cols-2">
             <div className="p-4 rounded-lg bg-pink-50 dark:bg-pink-950/20">
-              <h4 className="font-semibold mb-2">What's Coming</h4>
+              <h4 className="font-semibold mb-2">What&apos;s Coming</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Split expenses with friends and family</li>
                 <li>• Track who owes what</li>
@@ -38,7 +38,7 @@ export default function SharedExpensesPage() {
             <div className="p-4 rounded-lg bg-blue-50 dark:bg-blue-950/20">
               <h4 className="font-semibold mb-2">Stay Tuned</h4>
               <p className="text-sm text-muted-foreground">
-                We're working hard to bring you this feature. Sign up for our newsletter to be notified when it launches!
+                We&apos;re working hard to bring you this feature. Sign up for our newsletter to be notified when it launches!
               </p>
               <Button className="mt-4 w-full" variant="outline">
                 Notify Me

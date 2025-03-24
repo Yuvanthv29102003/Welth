@@ -100,22 +100,22 @@ export function AccountCard({ account }) {
     }
   }, [deleteError]);
 
-  const handleCardClick = (e) => {
+  const handleClick = (e) => {
     // Don't navigate if clicking on the switch or delete button
     if (
-      e.target.closest('button') || 
+      e.target.closest("button") ||
       e.target.closest('[role="switch"]') ||
       e.target.closest('[role="dialog"]')
     ) {
       return;
     }
-    router.push(`/account/${id}`);
+    router.push(`/account/${account.id}`);
   };
 
   return (
     <Card 
       className="group relative overflow-hidden transition-all hover:shadow-lg hover:shadow-indigo-500/10 dark:hover:shadow-indigo-400/10 cursor-pointer" 
-      onClick={handleCardClick}
+      onClick={handleClick}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 via-purple-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
       <div className="absolute top-2 right-2 z-10 flex items-center gap-2">

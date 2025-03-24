@@ -19,7 +19,7 @@ export function SharedExpensesList({ initialSharedExpenses = [] }) {
       setLoading(true);
       await acceptSharedExpense(id);
       setExpenses(expenses.map(expense => 
-        expense.id === id ? { ...expense, status: 'ACCEPTED' } : expense
+        expense.id === id ? { ...expense, status: "ACCEPTED" } : expense
       ));
       toast.success("Expense accepted successfully!");
     } catch (error) {
@@ -34,7 +34,7 @@ export function SharedExpensesList({ initialSharedExpenses = [] }) {
       setLoading(true);
       await declineSharedExpense(id);
       setExpenses(expenses.map(expense => 
-        expense.id === id ? { ...expense, status: 'DECLINED' } : expense
+        expense.id === id ? { ...expense, status: "DECLINED" } : expense
       ));
       toast.success("Expense declined successfully!");
     } catch (error) {

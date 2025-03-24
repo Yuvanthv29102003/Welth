@@ -134,17 +134,18 @@ export function PreferencesForm({ preferences = defaultPreferences }) {
           />
         </div>
 
-        <div className="flex items-center justify-between">
-          <div className="space-y-0.5">
-            <Label>Budget Alerts</Label>
-            <p className="text-sm text-muted-foreground">
-              Get notified when you're close to your budget limits
-            </p>
+        <div className="space-y-2">
+          <Label htmlFor="budgetAlerts">Budget Alerts</Label>
+          <div className="flex items-center space-x-2">
+            <Switch
+              id="budgetAlerts"
+              checked={formData.budgetAlerts}
+              onCheckedChange={(checked) => handleChange("budgetAlerts", checked)}
+            />
+            <Label htmlFor="budgetAlerts">
+              Get notified when you&apos;re close to your budget limits
+            </Label>
           </div>
-          <Switch
-            checked={formData.budgetAlerts}
-            onCheckedChange={(checked) => handleChange("budgetAlerts", checked)}
-          />
         </div>
 
         <div className="flex items-center justify-between">
