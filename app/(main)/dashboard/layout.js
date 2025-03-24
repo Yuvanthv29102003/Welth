@@ -11,7 +11,7 @@ export default function Layout() {
             Dashboard
           </h1>
           <p className="text-muted-foreground mt-1">
-            Welcome back! Here's an overview of your finances.
+            Welcome back! Here&apos;s an overview of your finances.
           </p>
         </div>
       </div>

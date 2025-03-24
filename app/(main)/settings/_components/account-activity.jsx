@@ -91,20 +91,25 @@ export function AccountActivity() {
               <card.icon className="h-5 w-5 text-muted-foreground mt-0.5" />
               <div className="flex-1">
                 <p className="text-sm font-medium">{card.title}</p>
-                <p
-                  className={`text-sm text-muted-foreground ${
-                    card.truncate ? "truncate max-w-[200px]" : ""
-                  }`}
-                >
-                  {isLoading ? (
-                    <span className="flex items-center gap-2">
-                      <Loader2 className="h-4 w-4 animate-spin" />
-                      Loading...
-                    </span>
-                  ) : (
-                    card.value
-                  )}
-                </p>
+                <div className="flex items-center justify-between">
+                  <div className="space-y-0.5">
+                    <label className="text-sm font-medium">{card.title}</label>
+                    <p
+                      className={`text-sm text-muted-foreground ${
+                        card.truncate ? "truncate max-w-[200px]" : ""
+                      }`}
+                    >
+                      {isLoading ? (
+                        <span className="flex items-center gap-2">
+                          <Loader2 className="h-4 w-4 animate-spin" />
+                          Loading...
+                        </span>
+                      ) : (
+                        card.value
+                      )}
+                    </p>
+                  </div>
+                </div>
               </div>
             </Card>
           </motion.div>

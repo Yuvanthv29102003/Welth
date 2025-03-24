@@ -92,7 +92,7 @@ export const testimonialsData = [
     role: "Startup Founder",
     image: "https://randomuser.me/api/portraits/women/75.jpg",
     quote:
-      "This platform has revolutionized how I handle my startup's finances. The AI-powered insights help me make smarter financial decisions every day.",
+      "This platform has revolutionized how I handle my startup&apos;s finances. The AI-powered insights help me make smarter financial decisions every day.",
   },
   {
     name: "David Park",
@@ -106,6 +106,6 @@ export const testimonialsData = [
     role: "Personal Finance Coach",
     image: "https://randomuser.me/api/portraits/women/74.jpg",
     quote:
-      "I've tried many finance apps, but this one stands out. The intuitive interface and smart budgeting tools make financial planning a breeze.",
+      "I&apos;ve tried many finance apps, but this one stands out. The intuitive interface and smart budgeting tools make financial planning a breeze.",
   },
 ];
