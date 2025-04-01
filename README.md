@@ -2,7 +2,15 @@
 
 A modern, full-stack personal finance management platform built with Next.js, featuring AI-powered insights, expense tracking, and budget management.
 
+<div align="center">
+  <img src="public/images/banner.png" alt="Welth Platform Banner" width="100%">
+</div>
+
 ## Features ✨
+
+<div align="center">
+  <img src="public/images/dashboard.png" alt="Dashboard Preview" width="80%">
+</div>
 
 - 🔐 Secure authentication with Clerk
 - 💰 Expense tracking and management
@@ -13,6 +21,10 @@ A modern, full-stack personal finance management platform built with Next.js, fe
 - 📧 Email notifications with Resend
 - 🔒 Rate limiting with ArcJet
 - 📊 Database management with Prisma
+
+<div align="center">
+  <img src="public/images/features.png" alt="Features Preview" width="80%">
+</div>
 
 ## Tech Stack 🛠️
 
