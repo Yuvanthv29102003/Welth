@@ -1,11 +1,45 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# Welth - AI-Powered Personal Finance Platform 💰
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+A modern, full-stack personal finance management platform built with Next.js, featuring AI-powered insights, expense tracking, and budget management.
 
-### Make sure to create a `.env` file with following variables -
+## Features ✨
 
+- 🔐 Secure authentication with Clerk
+- 💰 Expense tracking and management
+- 📊 Budget planning and monitoring
+- 🤖 AI-powered financial insights
+- 📱 Responsive design with Tailwind CSS
+- 🎨 Modern UI with Shadcn UI components
+- 📧 Email notifications with Resend
+- 🔒 Rate limiting with ArcJet
+- 📊 Database management with Prisma
+
+## Tech Stack 🛠️
+
+- **Frontend**: Next.js 14, Tailwind CSS, Shadcn UI
+- **Backend**: Next.js API Routes
+- **Database**: Prisma with PostgreSQL
+- **Authentication**: Clerk
+- **AI Integration**: Google Gemini
+- **Email Service**: Resend
+- **Rate Limiting**: ArcJet
+- **Background Jobs**: Inngest
+
+## Getting Started 🚀
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Yuvanthv29102003/Welth.git
+cd Welth
 ```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a `.env` file with the following variables:
+```env
 DATABASE_URL=
 DIRECT_URL=
 
@@ -22,3 +56,23 @@ RESEND_API_KEY=
 
 ARCJET_KEY=
 ```
+
+4. Run the development server:
+```bash
+npm run dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License 📄
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author 👤
+
+- Yuvanth Veluru
+- GitHub: [@Yuvanthv29102003](https://github.com/Yuvanthv29102003)
